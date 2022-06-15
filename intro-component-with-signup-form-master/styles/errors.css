@@ -1,0 +1,14 @@
+.error-input{
+    border-color:#ff7a7a;
+    background: url("/images/icon-error.svg") no-repeat scroll 95%;
+}
+.error-msg{
+    display: none;
+}
+.error-input + .error-msg{
+    display: initial;
+    color:#ff7a7a;
+    text-align: end;
+    padding-right: 10%;
+    font-weight: bolder;
+}
