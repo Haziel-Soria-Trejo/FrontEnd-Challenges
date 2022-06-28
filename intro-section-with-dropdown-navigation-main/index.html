@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="./styles/init.css" />
+    <link rel="stylesheet" href="./styles/desktop.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+  </head>
+  <body>
+    <nav>
+      <span class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </span>
+      <div class="menu">
+        <ul class="main-menu">
+          <li>
+            <div class="dropdown">
+              <div class="">
+                Features
+                <span> <img src="./images/icon-arrow-down.svg" alt="" /></span>
+              </div>
+              <div class="dropdown-content">
+                <ul class="dropdown-list">
+                  <li>
+                    <span>
+                      <img src="./images/icon-todo.svg" alt="" />
+                    </span>
+                    <a>Todo List</a>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-calendar.svg" alt="" />
+                    </span>
+                    <a>Calendar</a>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-reminders.svg" alt="" />
+                    </span>
+                    <a>Reminders</a>
+                  </li>
+                  <li>
+                    <span>
+                      <img src="./images/icon-planning.svg" alt="" />
+                    </span>
+                    <a>Planning</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <div class="">
+                Planning
+                <span> <img src="./images/icon-arrow-down.svg" alt="" /></span>
+              </div>
+              <div class="dropdown-content">
+                <ul class="dropdown-list">
+                  <li><a>History</a></li>
+                  <li><a>Our Team</a></li>
+                  <li><a>Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+
+        <ul class="usr-act-menu">
+          <li><button class="log-btn">Login</button></li>
+          <li><button class="log-btn">Register</button></li>
+        </ul>
+      </div>
+      <span id="burger-menu">
+        <button id="burger-btn" class="open">
+          <img src="./images/icon-menu.svg" alt="" />
+        </button>
+      </span>
+    </nav>
+
+    <main>
+      <article class="main-content">
+        <h1>Make remote work</h1>
+
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+
+        <a href="" id="learn-more-id">Learn more</a>
+      </article>
+      <section class="logos">
+        <img src="./images/client-audiophile.svg" alt="" />
+        <img src="./images/client-databiz.svg" alt="" />
+        <img src="./images/client-maker.svg" alt="" />
+        <img src="./images/client-meet.svg" alt="" />
+      </section>
+      <div class="hero-image-container">
+        <div class="hero-image"></div>
+      </div>
+    </main>
+    <!--<div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Haziel-Soria-Trejo">Haziel Soria</a>.
+    </div>-->
+    <script src="./code/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+/*Initial settings*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Epilogue";
+  background-color: var(--Almost-White);
+}
+nav {
+  padding: 25px 50px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: inherit;
+}
+h1 {
+  color: var(--Almost-Black);
+  font-size: 3rem;
+}
+p {
+  color: var(--Medium-Gray);
+  font-size: 16px;
+}
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+li,
+li > * {
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+}
+main {
+  display: grid;
+}
+.main-content > * {
+  margin: 0 10px;
+}
+#learn-more-id {
+  background-color: var(--Almost-Black);
+  color: var(--Almost-White);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#learn-more-id:hover {
+  color: var(--Almost-Black);
+  background-color: inherit;
+  border-style: solid;
+  border-color: var(--Medium-Gray);
+}

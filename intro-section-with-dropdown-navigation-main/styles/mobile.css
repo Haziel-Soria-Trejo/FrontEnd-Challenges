@@ -1,0 +1,118 @@
+@media screen and (max-width: 730px) {
+  * {
+    text-align: center;
+  }
+
+  #burger-menu {
+    display: initial;
+  }
+  #burger-menu button {
+    background-color: inherit;
+    border-style: none;
+  }
+  .logo {
+    margin: 10px 0;
+    position: fixed;
+    left: 0;
+    padding: 10px;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding: 10px 30px 0;
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-color: var(--Almost-White);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% auto;
+  }
+  #burger-menu {
+    grid-row-start: 1;
+    justify-self: end;
+  }
+  .menu {
+    width: 100;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10vh;
+  }
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+  /*A very "patched" way of solving the dropdown issue.*/
+  .dropdown {
+    display: flex;
+    padding: 0;
+  }
+  /*.dropdown:hover .dropdown-content {
+    display: block;
+  }*/
+  .dropdown-content {
+    margin-top: 30px;
+    margin-left: -40px;
+  }
+  .dropdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .dropdown-list li {
+    margin: 2px;
+    color: var(--Medium-Gray);
+  }
+  .usr-act-menu {
+    justify-self: center;
+  }
+  .usr-act-menu li {
+    display: block;
+    margin: 10px;
+  }
+  .usr-act-menu button {
+    width: 40vw;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .main-content {
+    order: 2;
+    margin-bottom: 100px;
+  }
+  .main-content > * {
+    margin: 30px 0;
+  }
+  .hero-image-container {
+    order: 1;
+  }
+  .logos {
+    order: 3;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .hero-image {
+    background-image: url("/images/image-hero-mobile.png");
+    height: 100vw;
+    z-index: 1;
+  }
+  nav {
+    visibility: hidden;
+  }
+  .logo {
+    visibility: visible;
+  }
+  #burger-menu {
+    visibility: visible;
+  }
+}
