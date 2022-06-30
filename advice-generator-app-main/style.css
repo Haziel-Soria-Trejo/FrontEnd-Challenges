@@ -1,0 +1,77 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+html, body{
+    height: 100%;
+}
+:root{
+    --Neon-Green:hsl(150, 100%, 66%);
+}
+body{
+    background-color:  hsl(218, 23%, 16%);
+    font-family: 'Manrope';
+    font-size:28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advice-box{
+    background-color:hsl(217, 19%, 24%) ;
+    color:hsl(193, 38%, 86%);
+    padding: 20px;
+    margin:20px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.advice-box >*{
+    margin:10px;
+}
+#advice-name{
+    color:var(--Neon-Green);
+    text-align:center;
+    font-size:10px
+}
+.advice-content{
+    text-align:center;
+}
+#get-advice{
+    background-color: var(--Neon-Green);
+    width:60px;
+    height:60px;
+    border-style:none;
+    border-radius:50%;
+    position:relative;
+    top:60px
+}
+#get-advice:hover{
+    box-shadow: 0 0 15px 15px rgba(82,255,168,.3);
+}
+.advice-divider{
+    background-image: url("/images/pattern-divider-mobile.svg");
+   background-repeat:no-repeat;
+    height:16px;
+    width:100%;
+    background-size:contain;
+    background-position: center;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    font-size:12px;
+}
+@media screen and (min-width:500px) {
+    .advice-box{
+        width: 35%;
+    }
+    .advice-divider{
+        background-image: url("/images/pattern-divider-desktop.svg");
+    
+     }
+    
+}
