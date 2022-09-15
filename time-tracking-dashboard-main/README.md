@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://time-tracking-dashboard-beta-navy.vercel.app/)
+- Live Site URL: [Add live site URL here](https://github.com/Haziel-Soria-Trejo/FrontEnd-Challenges/tree/master/time-tracking-dashboard-main)
 
 ## My process
 
