@@ -12,6 +12,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [acknowledgement]
 - [Author](#author)
 
 ## Overview
@@ -36,6 +37,10 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://github.com/Haziel-Soria-Trejo/FrontEnd-Challenges/tree/master/time-tracking-dashboard-main)
 
 ## My process
+Something very important I learnt was to make things more accesible.
+I belived the project would be finished with just the way it looked however it's necessary
+to think I'm doing a real job in order to actually learn new things.
+
 
 ### Built with
 
@@ -49,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
-It was useful to recap how Grid works and sharp some knowledge.
+It was useful to recap how Grid works and sharp some knowledge. 
 
 Also I think the way I organize my code,  either HTML, CSS or JS, is better;more semantic
 and reusable.
@@ -59,6 +64,11 @@ and reusable.
 ### Continued development
 When I started working with the JSON file I got the idea to make an API, so maybe I will
 do a similar project but with an API.
+
+### Acknowledgement
+I got feedback from [@grace-snow](https://www.frontendmentor.io/profile/grace-snow)
+When I don't remember something about Grid-CSS this page has helped me - [Malven](https://grid.malven.co/)
+
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Haziel-Soria-Trejo)
+- Frontend Mentor - [@Haziel-Soria-Trejo](https://www.frontendmentor.io/profile/Haziel-Soria-Trejo)

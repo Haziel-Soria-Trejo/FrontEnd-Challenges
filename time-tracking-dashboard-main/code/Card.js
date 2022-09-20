@@ -1,5 +1,5 @@
 export default function Card(act,period,timestamps){
-    const $card = document.createElement("article");
+    const $card = document.createElement("div");
 
     let actLower = act.toLowerCase()
     if(actLower.includes(' ')){
@@ -14,12 +14,14 @@ export default function Card(act,period,timestamps){
     
 
     $card.innerHTML = `<div class="act-bgr">
-    <img src="./images/icon-${actLower}.svg" alt="" />
+    <img src="./images/icon-${actLower}.svg" alt="Profile Image"/>
     </div>
     <div class="act-content">
-    <h3 class="act-title">${act}</h3>
+    <h2 class="act-title">${act}</h2>
     <div class="act-menu">
+    <button class="act-menu-btn">
     <img src="./images/icon-ellipsis.svg" />
+    </button>
     </div>
     <p class="act-hours">${timestamps.current}hrs</p>
     <small>Last ${tiemframe}-${timestamps.previous}</small>

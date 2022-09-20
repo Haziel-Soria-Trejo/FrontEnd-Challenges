@@ -1,14 +1,11 @@
 import Card from "./Card.js";
 import LoadData from "./LoadData.js";
 
-let periodState = "weekly"; //daily, monthly
+let periodState = "weekly"; //daily, weekly, monthly
 const createCards = ()=>{
   const $fragment = document.createDocumentFragment()
   const $main = document.querySelector('main')
-  const $profileBox = document.getElementById('profile')
-
-  $fragment.append($profileBox)
-
+  
   LoadData(periodState).then((res) =>{
     res.forEach(e=>{
       const card = Card(e.title,periodState,e.timestamps)
@@ -27,7 +24,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 document.addEventListener("click", (e) => {
   let target = e.target;
-  if (Array.from(target.classList).includes("select-li")) {
+  if (Array.from(target.classList).includes("select-btn")) {
     document.getElementById(periodState).classList.remove("period-select");
     periodState = target.id;
     e.target.classList.add("period-select");
