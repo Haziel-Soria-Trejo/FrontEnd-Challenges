@@ -1,0 +1,77 @@
+{
+    "generalData":[
+        {
+            "socialNetworkName":"facebook",
+            "username":"@nathanf",
+            "followersToday":1987,
+            "difference":12
+        },
+        {
+            "socialNetworkName":"twitter",
+            "username":"@nathanf",
+            "followersToday":1044,
+            "difference":99
+        },
+        {
+            "socialNetworkName":"instagram",
+            "username":"@realnathanf",
+            "followersToday":11000,
+            "difference":1099
+        },{
+            "socialNetworkName":"youtube",
+            "username":"Nathan F.",
+            "followersToday":8239,
+            "difference":-144
+        }
+    ],
+    "todayOverview":[
+        {
+            "action":"Page Views",
+            "socialNetworkName":"facebook",
+            "number":87,
+            "difference_percentage":3
+        },
+        {
+            "action":"Likes",
+            "socialNetworkName":"facebook",
+            "number":52,
+            "difference_percentage":-2
+        },
+        {
+            "action":"Likes",
+            "socialNetworkName":"instagram",
+            "number":5462,
+            "difference_percentage":2257
+        },
+        {
+            "action":"Profile Views",
+            "socialNetworkName":"instagram",
+            "number":52000,
+            "difference_percentage":1375
+        },
+        {
+            "action":"Retweets",
+            "socialNetworkName":"twitter",
+            "number":117,
+            "difference_percentage":3
+        },
+        {
+            "action":"Likes",
+            "socialNetworkName":"twitter",
+            "number":507,
+            "difference_percentage":553
+        },
+        {
+            "action":"Likes",
+            "socialNetworkName":"youtube",
+            "number":107,
+            "difference_percentage":-19
+        },
+        {
+            "action":"Total Views",
+            "socialNetworkName":"youtube",
+            "number":1407,
+            "difference_percentage":-12
+        }
+    ]
+}
